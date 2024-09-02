@@ -1,9 +1,9 @@
 import requests
 import time
 
-TELEGRAM_BOT_TOKEN = '5836134855:AAFOyHKtHFcMyUDPOkDZzOn4-KkhXuUts04'
-TELEGRAM_CHAT_ID = '5338932196'
-WEATHER_API_KEY = 'a896b7cef4ae6937c83675f2ac38b4b9'
+TELEGRAM_BOT_TOKEN = ''
+TELEGRAM_CHAT_ID = ''
+WEATHER_API_KEY = ''
 
 # This is the URL of the API endpoint for sending messages to Telegram
 SEND_MESSAGE_URL = 'https://api.telegram.org/bot{}/sendMessage'.format(TELEGRAM_BOT_TOKEN)
